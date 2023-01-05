@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+   
+}
+
+span{
+    margin-top: 20px;
+}
+li{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    list-style: none;
+
+}
+
+li:first-child{
+    border-top: 1px solid black;
+}
+
+li:last-child{
+    border-bottom: 1px solid black;
+}
+
+ul{
+    width: 100%;
+    margin-top: 20px;
+}
